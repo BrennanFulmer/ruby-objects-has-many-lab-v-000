@@ -8,7 +8,7 @@ class Author
     @posts = []
   end
   
-  def post_count=(num)
+  def post_count=(count)
   
   def add_post(new_post)
     self.posts << new_post
