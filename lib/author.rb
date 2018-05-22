@@ -10,6 +10,7 @@ class Author
   
   def post_count=(count)
     @@post_count += count
+  end
   
   def add_post(new_post)
     self.posts << new_post
