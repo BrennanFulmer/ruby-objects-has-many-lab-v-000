@@ -12,6 +12,10 @@ class Author
     @@post_count += count
   end
   
+  def post_count
+    @@post_count
+  end
+  
   def add_post(new_post)
     self.posts << new_post
     new_post.author = self
