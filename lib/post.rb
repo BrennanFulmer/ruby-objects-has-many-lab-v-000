@@ -8,6 +8,6 @@ class Post
   end
   
   def author=(name)
-    
+    @author = name
   end
 end
