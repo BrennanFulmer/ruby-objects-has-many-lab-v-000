@@ -1,7 +1,7 @@
 
 class Post
   
-  def initialize()
+  def initialize(title)
   end
   
 end
