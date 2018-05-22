@@ -8,7 +8,7 @@ class Author
   end
   
   def add_post(new_post)
-    
+    self.posts << new_post
   end
 
 end
