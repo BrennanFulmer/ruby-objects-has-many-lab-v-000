@@ -9,6 +9,6 @@ class Post
   
   def author=(name)
     @author = name
-    @author_name = name
+    @author_name = @author
   end
 end
