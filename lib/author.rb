@@ -6,5 +6,7 @@ class Author
     @name = author
     @posts = []
   end
+  
+  
 
 end
